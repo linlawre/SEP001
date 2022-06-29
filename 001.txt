@@ -5,7 +5,7 @@ FROM Production.Product
 2.
 SELECT ProductID, Name, Color, ListPrice
 FROM Production.Product
-WHERE ListPrice = 0
+WHERE ListPrice <> 0
 
 3.
 SELECT ProductID, Name, Color, ListPrice
